@@ -1,0 +1,9 @@
+#heroImage {
+    width: 100%;
+    height: auto;
+    background-position: center center;
+}
+
+body, p {
+    padding: 0;
+  }

@@ -1,0 +1,7 @@
+.DescriptionBox {
+    height: 230px;
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0px 10px;
+}

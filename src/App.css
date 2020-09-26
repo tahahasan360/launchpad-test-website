@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.boxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  background-color: pink;
+}
+
+p, body, html {
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+Navbar {
+  display: flex;
+  flex-direction: row;
+  color: red;
+}

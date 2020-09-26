@@ -1,0 +1,11 @@
+.Heading {
+    background-color: pink;
+    margin-top: -10px;
+    color: white;
+    height: 75px;
+    width: 100%;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
