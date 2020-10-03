@@ -3,7 +3,7 @@ import './heading.css';
 
 const heading = () => {
     return (
-        <div className = "Heading"><h1> This is RiceApps.</h1></div>
+        <div className = "Heading"><span> This is RiceApps.</span></div>
     )
 };
 

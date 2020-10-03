@@ -1,9 +1,8 @@
 #heroImage {
     width: 100%;
-    height: auto;
-    background-position: center center;
+    height: 290px;
+    background-image: url("../Untitled.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 32%;
 }
-
-body, p {
-    padding: 0;
-  }
