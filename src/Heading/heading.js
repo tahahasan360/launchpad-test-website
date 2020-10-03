@@ -1,9 +1,11 @@
 import React from 'react';
 import './heading.css';
 
-const heading = () => {
+const heading = ({darkMode}) => {
     return (
-        <div className = "Heading"><span> This is RiceApps.</span></div>
+        <div className = {darkMode ? "heading-dark" : "heading-light"}>
+            <span> This is RiceApps.</span>
+        </div>
     )
 };
 

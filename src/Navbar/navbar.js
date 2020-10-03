@@ -2,20 +2,17 @@ import React from 'react';
 import logo from '../riceappslogo.png';
 import './navbar.css'
 
-const navbarStyle = {
-    color: 'red',
-    backgroundColor: 'blue',
-    width: '100%',
-    height: '50px',
-    padding: '2%',
-}
-
-
-const navbar = () => {
+const navbar = ({switchDarkMode, darkMode}) => {
+    console.log(darkMode);
     return (
-    <div className = "Navbar">
+    <div className = {darkMode ? "Navbar-dark" : "Navbar-light"}>
         <img src={logo} id = "logo"></img>
-        <button>Enable Dark Mode</button>
+        <button 
+        id = "darkModeButton" 
+        onClick = {switchDarkMode} 
+        className = {darkMode ? "button-dark" : "button-light"}>
+            {darkMode ?"Enable Light Mode" : "Enable Dark Mode"}
+        </button>
     </div>
     )
 };

@@ -1,10 +1,12 @@
 import React from 'react';
 import './descriptionBox.css';
 
-const descriptionBox = (props) => {
+const descriptionBox =  ({darkMode, heading, description}) => {
     return (
-        <div className = "DescriptionBox"><h1> {props.heading}</h1>
-        <p>{props.description}</p></div>
+        <div className = {darkMode ? "descriptionBox-dark" : "descriptionBox-light"}>
+            <h1> {heading}</h1>
+            <p>{description}</p>
+        </div>
     )
 };
 
