@@ -9,20 +9,18 @@
   flex-direction: column;
 }
 
-.boxContainer-light {
+.boxContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding-top: 10px;
+}
+
+.boxContainer-light {
   background-color: pink;
 }
 
 .boxContainer-dark {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  padding-top: 10px;
   background-color: #86DAD3;
 }

@@ -1,22 +1,22 @@
-.Navbar-light {
+.Navbar {
     width: 100%;
     height: 52px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.Navbar-light {
 }
 
 .Navbar-dark {
     background-color: black;
-    width: 100%;
-    height: 52px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 }
 
+.border {
+    border: 20px black solid;
+}
 #logo {
     height: 45px;
     width: 45px;
