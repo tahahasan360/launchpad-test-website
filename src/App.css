@@ -18,9 +18,24 @@
 }
 
 .boxContainer-light {
-  background-color: pink;
+  background-color: #DC2F66;
 }
 
 .boxContainer-dark {
-  background-color: #86DAD3;
+  background-color: darkslategrey;
+}
+
+.page {
+  width: 100%;
+  height: 92vh;
+}
+
+.page-light {
+  background-color:#DC2F66;
+  color: white;
+}
+
+.page-dark {
+  background-color: darkslategrey;
+  color: white;
 }

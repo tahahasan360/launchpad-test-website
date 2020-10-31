@@ -1,12 +1,14 @@
 import React from 'react';
 import logo from '../riceappslogo.png';
 import './navbar.css'
+import {Link} from "react-router-dom"
 
 const navbar = ({switchDarkMode, darkMode}) => {
-    console.log(darkMode);
     return (
     <div className = {["Navbar", darkMode ? "Navbar-dark" : "Navbar-light"].join(' ')}>
-        <img src={logo} id = "logo"></img>
+        <Link to = '/'>
+            <img src={logo} id = "logo" alt = ''></img>
+        </Link>
         <button 
         id = "darkModeButton" 
         onClick = {switchDarkMode} 

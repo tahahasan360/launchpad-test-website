@@ -13,12 +13,12 @@
 }
 
 .heading-light {
-    background-color: pink;
+    background-color: #DC2F66;
     color: white;
   }
 
 .heading-dark {
-  background-color:#86DAD3;
+  background-color: darkslategrey;
   color: black;
 }
 
